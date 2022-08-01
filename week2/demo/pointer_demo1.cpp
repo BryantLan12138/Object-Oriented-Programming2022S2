@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int * ptr;
-    int i;
+    int i = 0;
 
     // above initialization equivelant to int *ptr, i;
     i = 11;
