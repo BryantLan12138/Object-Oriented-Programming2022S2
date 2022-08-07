@@ -9,6 +9,8 @@ int main(){
 	int* ptr = array;
 
 	for(int i=0; i<6; i++){
+		// cout<<(ptr + i)<<" ";
+
 		cout<<*(ptr + i)<<" ";
 	}
 	cout<<*(ptr + 6)<<endl;

@@ -7,6 +7,7 @@ int main(){
 	int value = 42;
 	int* add_value = &value;
 
+	cout << *add_value << endl;
 	*add_value = *add_value + 5;
 	cout<<*add_value<<endl;
 
