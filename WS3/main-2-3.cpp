@@ -5,6 +5,7 @@ using namespace std;
 int main(){
 
 	int value = 42;
+	cout << &value << endl;
 	int* add_value = &value;
 
 	cout << *add_value << endl;

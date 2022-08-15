@@ -21,6 +21,11 @@ int main(){
 
 		}
 	}
+	// for(int i = 0 ; i < 3; i++) {
+	// 	cout << *(ptr + i) << " ";
+	// }
+
+	// cout << *(ptr + 3);
 
 	return 0;
 }
