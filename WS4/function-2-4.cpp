@@ -10,6 +10,6 @@ float multiply_op(float left, float right) {
     return left * right;
 }
 
-float arithmetic_ops(float left, float right, float (*op)(float,float)) {
+float arithmetic_ops(float (*op)(float ,float ), float left, float right ) {
     return (*op)(left, right);
 }
