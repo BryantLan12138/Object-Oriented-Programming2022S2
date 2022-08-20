@@ -24,7 +24,12 @@ int main() {
     
     // int array[];
     
-    int *array;
+    int *array = new int[5];
+    int array2[5] = {1, 2, 3, 4, 5}; 
+    int *ptr;
+    cout << *array << endl;
+    cout << *(array2 - 1) << endl;
+
     // sizeof(p) == sizeof(t) == sizeof(arr)
     // int *u = new int;
     // cout << t << endl;
